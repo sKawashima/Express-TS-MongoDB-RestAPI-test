@@ -9,7 +9,7 @@
 ## できるようにしたいこと
 
 - [x] Expressの起動
-- [ ] TypeScript環境構築
+- [x] TypeScript環境構築
 - [ ] Standard対応
 - [ ] ExpressでのAPI返答
 - [ ] MongoDBとの連携
@@ -21,4 +21,5 @@
   * 流れ作業
   * express standard
 * TypeScript導入
-  * typescript ts-node @types/express
+  * typescript ts-node @types/express nodemon
+  * 単にts-nodeで実行するだけではオートリロードされないのでnodemonをdevにかませる

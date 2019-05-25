@@ -1,9 +1,10 @@
 {
-  "name": "Express-MongoDB-RestAPI",
+  "name": "Express-TS-MongoDB-RestAPItest",
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "dev": "ts-node ./src/app.ts"
+    "dev": "nodemon -L",
+    "start": "ts-node ./src/app.ts"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +15,7 @@
   "devDependencies": {
     "@types/express": "^4.16.1",
     "node-dev": "^4.0.0",
+    "nodemon": "^1.19.0",
     "standard": "^12.0.1",
     "ts-node": "^8.1.1",
     "typescript": "^3.4.5"

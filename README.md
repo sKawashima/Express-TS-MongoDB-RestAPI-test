@@ -10,7 +10,7 @@
 
 - [x] Expressの起動
 - [x] TypeScript環境構築
-- [ ] Standard対応
+- [x] Standard対応
 - [ ] ExpressでのAPI返答
 - [ ] MongoDBとの連携
 - [ ] テスト環境整える
@@ -23,3 +23,6 @@
 * TypeScript導入
   * typescript ts-node @types/express nodemon
   * 単にts-nodeで実行するだけではオートリロードされないのでnodemonをdevにかませる
+* Standard対応
+  * [これ](https://standardjs.com/#can-i-use-a-javascript-language-variant-like-flow-or-typescript)よくわからんかったからスルー
+  

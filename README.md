@@ -52,6 +52,7 @@
   * 要素が抜けててもエラーは出ない（判定してないので）
   * `:id`のように取得すると、`/api/user/5ce~`の`5ce~`を`req.params.id`で呼び出せる
   * 全データ取得は`find()`、他に`findById()`が使える
+  * [MongoDB コマンドメモとか書き - Qiita](https://qiita.com/svjunic/items/285e9cf20169d70aa1fa#%E9%87%8D%E8%A4%87%E3%83%AC%E3%82%B3%E3%83%BC%E3%83%89%E3%81%AE%E9%99%A4%E5%8E%BBdistinct)
 
 ```js
 mongoose.Promise = global.Promise

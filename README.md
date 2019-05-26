@@ -19,7 +19,7 @@
 - [x] TypeScript環境構築
 - [x] Standard対応
 - [x] ExpressでのAPI返答
-- [ ] MongoDBとの連携
+- [x] MongoDBとの連携
 - [ ] リアルタイムログ共有
 - [ ] テスト環境整える
 
@@ -50,6 +50,8 @@
     * `$ show collections`でデータベース一覧を確認
     * `$ db.usermodels.find()`で全データ表示
   * 要素が抜けててもエラーは出ない（判定してないので）
+  * `:id`のように取得すると、`/api/user/5ce~`の`5ce~`を`req.params.id`で呼び出せる
+  * 全データ取得は`find()`、他に`findById()`が使える
 
 ```js
 mongoose.Promise = global.Promise

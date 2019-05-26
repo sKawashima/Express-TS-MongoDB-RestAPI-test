@@ -5,13 +5,8 @@ const port = 3000
 
 app.get('/', (req, res) => res.send('Hello World!!'))
 
-app.get('/api/v1', (req, res) => {
-  res.json({
-    message: 'hello Express API',
-    // req: req,
-    // res: res
-  })
-  console.log(req.query['a'])
-})
+import {router} from './api/'
+
+app.use('/api/', router)
 
 app.listen(port, () => console.log(`Example app listening on port ${port}! http://localhost:${port}`))

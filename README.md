@@ -29,3 +29,6 @@
 * ExpressでのAPI返答
   * `get`と`post`、もといそれぞれのqueryの取得はできた
   * [ここ](https://qiita.com/leafia78/items/73cc7160d002a4989416#helloworld)に出てくる `body-parser` の役割がよくわからない
+  * `export`と`import`を使ったファイル分割
+    * TypeScriptでの`export`はその場所に書く
+    * TypeScriptでは`require`でなく`import`で書く

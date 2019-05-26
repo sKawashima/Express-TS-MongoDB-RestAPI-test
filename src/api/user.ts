@@ -16,12 +16,25 @@ userRouter.post('/', (req, res) => {
   User.bio = req.query.bio
 
   User.save((err: string) => {
+    let id: Number
     if (err) {
-      console.log(err)
+      console.error(err)
       res.send(err)
     } else {
-      res.json({
-        message: 'success'
+      UserModel.find({}, {}, { // 直近追加のidを返す
+        sort: {_id: -1},
+        limit: 1
+      }, (err: String, user: string[]) => {
+        if (err) {
+          console.error(err)
+        } else {
+          id = user[0]['_id']
+        }
+      }).then(() => { // resを返す
+        res.json({
+          message: 'success',
+          _id: id
+        })
       })
     }
   })

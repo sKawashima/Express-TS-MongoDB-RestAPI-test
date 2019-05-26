@@ -2,10 +2,13 @@
 
 なんとなくサーバーサイドの練習と勉強
 
+## 実質の教科書
+
+* [サルでも分かるExpressでのjsonAPIサーバーの作り方 - Qiita](https://qiita.com/leafia78/items/73cc7160d002a4989416)
+
 ## 参考
 
 * [TypeScriptでExpress.js開発するときにやることまとめ (docker/lint/format/tsのまま実行/autoreload) - Qiita](https://qiita.com/yuukive/items/012bdf1b9ff3881546b3)
-* [サルでも分かるExpressでのjsonAPIサーバーの作り方 - Qiita](https://qiita.com/leafia78/items/73cc7160d002a4989416)
 
 ## できるようにしたいこと
 

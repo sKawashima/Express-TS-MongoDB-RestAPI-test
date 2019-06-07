@@ -11,3 +11,6 @@ router.get('/', (req, res) => {
 // できればこっちの書き方のみを使いたい
 import {userRouter} from './user'
 router.use('/user', userRouter)
+
+import {imageRouter} from './image'
+router.use('/image', imageRouter)
